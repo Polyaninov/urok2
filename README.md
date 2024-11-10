@@ -21,9 +21,8 @@ for (;;) {
 }
 
  4.    Запустить сервер командой php rot13-server.php и проверить что сервер работает: выполнить nc -u 127.0.0.1 10000 и ввести Hello World
-    Написать юнит-файл для запуска rot13-server.php как сервиса
+    
 
-  
   5. Написать юнит-файл для запуска rot13-server.php как сервиса
 
   [Unit]
@@ -33,7 +32,7 @@ Description=php
 [Service]
 Type=simple
 ExecStart=/usr/bin/php /opt/rot13/rot13-server.php
-Restart=always
+Restart=always  
 
 
 [Install]
