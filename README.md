@@ -55,6 +55,17 @@ curl 127.0.0.1:9999
 
 
 
+Часть 3 (задача со звездочкой)
+
+   1. Установить redis (install-redis-on-linux)
+       sudo apt install redis-server
+    
+   2.  Посмотреть статус демона redis
+    
+    sudo systemctl status redis-server
+
+    
+    3. Запустить второй экземпляр демона redis, написав systemd unit
 
 
 
