@@ -5,6 +5,8 @@
 
     
     В директории /opt создать папку rot13
+        pmn@pmn-ubuntu:/opt$ sudo mkdir rot13
+
 
     
     В директории /opt/rot13 создать файл с именем rot13-server.php с кодом
