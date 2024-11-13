@@ -53,6 +53,8 @@ WantedBy=multi-user.target
 1730956510 [ALARM] Disk usage for / is greater then 5: current value is 35
 
     Написать юнит-файл для запуска простого веб-сервера на python. После того как сервис запустится выполнить команду
+       sudo nano /lib/systemd/system/python.service 
+
 
 curl 127.0.0.1:9999
 
