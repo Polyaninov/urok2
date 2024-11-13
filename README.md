@@ -72,6 +72,9 @@ curl 127.0.0.1:9999
     
     3. Запустить второй экземпляр демона redis, написав systemd unit
 
+    sudo nano /etc/systemd/system/redis-server.service 
+
+
     [Unit]
 Description=Redis 
 After=network.target
