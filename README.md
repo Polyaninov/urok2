@@ -53,6 +53,13 @@ WantedBy=multi-user.target
 1730956510 [ALARM] Disk usage for / is greater then 5: current value is 35
 
 
+sudo nano /etc/systemd/system/script.service
+
+sudo nano /etc/systemd/system/script.timer
+
+
+
+
 1731591847 [ALARM] Disk usage for / is greater then 5: current value is 95
 
 
