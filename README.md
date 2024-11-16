@@ -57,6 +57,7 @@ sudo nano /etc/systemd/system/script.service
 
 sudo nano /etc/systemd/system/script.timer
 
+cat /var/log/dsk-usage.log
 
 
 
